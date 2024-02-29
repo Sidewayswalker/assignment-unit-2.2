@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Establishing variable "number" and assignming it a value of 1.
+// (increment operator) add 1 to the value of "number" making the new value 2.
+// Check and see if the variable "number" is great than or equal to 2. 
+// if number is 2 or higher.. which it is.. console.log 'yes'
 
 //CODE
 /*
