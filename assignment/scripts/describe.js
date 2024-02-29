@@ -71,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Establish variable "secret" without assigning it a value. 
+// Establish variable "code" and assign it a value of 123
+// if the variable "code" is equal to 123 (which it is..) change the variable "secret" to 'super'. Also, multiply the variable "code" by 2. (new value = 246)
+// if the variable "code" is greater than 250 (which it's not) Console.log('secret')
+// The final console.log(secret) will display 'super'
 
 //CODE
 /*
@@ -94,6 +95,12 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
+// Establish Variables (isStudent, age, zip) and assign them corresponding value (1, 34, 55407)
+// if the variable "isStudent" is true and the variable "zip" is greater than 80000 console.log(`You're a student on the West Coast!`)
+// if the variable isStudent is false or the variable "age" is less than 30 console.log('what are your hobbies?')
+// if the variable isStudent is true console.log('Welcome to Prime!')
+// if you have gotten past the first 3 if statments.. then console.log('Welcome to Prime!')
+// FINAL ANWSER = console.log('Welcome to Prime!');
 
 
 
@@ -138,6 +145,17 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
+//4. ANSWER
+// colors are mixed up. The variables need to look like this. also, colorTwo needs to be purple. 
+let colorOne = 'blue';
+let colorTwo = 'red';
+let mix = true;
+
+if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -151,6 +169,18 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+
+//5. ANSWER
+// the variable time is a constant and will never change from 4. I think this is acceptable. 
+// (temp > 39 || time >= 4) needs to be this instead (temp > 39 && time >= 4) 
+//This should look like the following:
+let temp = 40;
+const time = 4;
+
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+};
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -164,6 +194,16 @@ const minAge = 21;
 if(minAge <= age) {
   console.log('no entry');
 } else {
+  console.log('enter');
+}
+
+// 6. ANSWER 
+// There seems to be a little extra here.. This is how I would change it. 
+
+let age = 21;
+const minAge = 21;
+
+if(age >= minAge) {
   console.log('enter');
 }
 */
