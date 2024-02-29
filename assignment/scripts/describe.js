@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Establishing variable "name" and assignming it a value of "Dane".
+// if the variable "name" is equal to "Mary".. console.log('Hi, Mary!') --- (this won't happen)
+// if the variable "name" is not equal to "Mary".
+// console.log('How do you do?')
 
 //CODE
 /*
